@@ -131,8 +131,8 @@ public class ScreenUtils : MonoBehaviour
         rightBottomX = upperRightCornerW.x;
         rightBottomY = lowerLeftCornerW.y;
 
-        centerX = (RightBottomX - LeftBottomX)/2;
-        centerY = (RightBottomY - LeftBottomY)/2;
+        centerX = (RightBottomX - LeftBottomX) / 2;
+        centerY = (RightBottomY - LeftBottomY) / 2;
 
         center = new Vector2(centerX, centerY);
     }
